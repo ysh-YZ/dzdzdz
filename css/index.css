@@ -1,0 +1,282 @@
+@import url(base.css);
+html,body{
+    width: 7.50rem;
+    height: 12.72rem;
+    background: #FFFFFF;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+
+}
+.bg_box{
+    width: 7.50rem;
+    height: 8.9rem;
+    /*background: #ffac32;*/
+    background: url("../img/bg.png") no-repeat center;
+    background-size: 100% 100%;
+    padding: 0 0.24rem;
+    overflow: hidden;
+    position: relative;
+
+}
+/*.bg_box div{*/
+    /*width:0.53rem;height:0.77rem;background:red;*/
+/*}*/
+.head_horn{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    position: absolute;
+    top:0.62rem;
+    right: 0.24rem;
+    float: right;
+    background: url("../img/Aplay.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.head_horn1{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    position: absolute;
+    top:0.62rem;
+    right: 0.24rem;
+    float: right;
+    background: url("../img/Apause.png") no-repeat center;
+    background-size: 100% 100%;
+}
+
+.in_nature{
+    width: 1.24rem;
+    height: 1.24rem;
+    border-radius: 0.08rem;
+    font-size:0.30rem;
+    text-align: center;
+    line-height: 0.8rem;
+    /*background: #ffac32;*/
+    position: absolute;
+    top: 3.23rem;
+    right: 0.24rem;
+    background: url("../img/Health.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.in_nature1{
+    width: 1.24rem;
+    height: 1.24rem;
+    border-radius: 0.08rem;
+    font-size:0.30rem;
+    text-align: center;
+    line-height: 0.8rem;
+    /*background: #ffac32;*/
+    position: absolute;
+    top: 4.60rem;
+    right: 0.24rem;
+    background: url("../img/Point.png") no-repeat center;
+    background-size: 100% 100%;
+}
+
+.words_a{
+    width: 0.46rem;
+    height: 0.72rem;
+    background: #2196f3;
+    position: absolute;
+    left: 2.12rem;
+    top: 1.68rem;
+    background: url("../img/A.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.words_b{
+    width: 0.46rem;
+    height: 0.72rem;
+    background: #2196f3;
+    position: absolute;
+    left: 4.50rem;
+    top: 2.14rem;
+    background: url("../img/B.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.words_c{
+    width: 0.46rem;
+    height: 0.72rem;
+    background: #2196f3;
+    position: absolute;
+    left: 1.92rem;
+    top: 3.46rem;
+    background: url("../img/C.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.words_d{
+    width: 0.46rem;
+    height: 0.72rem;
+    background: #2196f3;
+    position: absolute;
+    left: 3.42rem;
+    top: 3.82rem;
+    background: url("../img/D.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.words_f{
+    width: 0.46rem;
+    height: 0.72rem;
+    background: #2196f3;
+    position: absolute;
+    left: 4.86rem;
+    top: 4.02rem;
+    background: url("../img/F.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.words_g{
+    width: 0.46rem;
+    height: 0.72rem;
+    background: #2196f3;
+    position: absolute;
+    left: 3.98rem;
+    top: 5.88rem;
+    background: url("../img/G.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.rabbit{
+    width: 0.5rem;
+    height: 0.7rem;
+    /*background: #2196f3;*/
+    position: absolute;
+    top:6.10rem;
+    left:3.48rem;
+    background: url("../img/兔子.png") no-repeat center;
+    background-size: 100% 100%;
+
+}
+.play_box{
+    width: 1.25rem;
+    height: 1.25rem;
+    background: #2196f3;
+    position: relative;
+    top:6.22rem;
+    left: 5.76rem;
+    background: url("../img/Play.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.end_box{
+    width: 1.25rem;
+    height: 1.25rem;
+    background: #2196f3;
+    position: relative;
+    top:6.22rem;
+    left: 5.76rem;
+    background: url("../img/Pause.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.bg_keyboard{
+    width: 7.50rem;
+    height: 4.44rem;
+    /*background: #2196f3;*/
+    background: url("../img/Key.png") no-repeat center;
+    background-size: 100% 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.con{
+    width: 7.02rem;
+    height: 4rem;
+    background:rgba(23,98,206,0.4);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+}
+.con div{
+    width: 0.5rem;
+    height: 0.8rem;
+    text-align: center;
+    line-height: 0.8rem;
+    background: url("../img/Letter.png") no-repeat center;
+    background-size:contain;
+    font-size: 0.34rem;
+    margin: 0 0.1rem;
+
+
+}
+.con div:nth-child(11){
+    margin-left: 0.2rem;
+}
+.alert_box{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    position: fixed;
+    top:0;
+    left:0;
+    display: none;
+}
+.message{
+    width:4.30rem;
+    height: 4.49rem;
+    background: url("../img/gameover.png") no-repeat center;
+    background-size:contain;
+    margin:1.2rem auto 0;
+    position: relative;
+}
+.bg_cloud{
+    width: 4.38rem;
+    height: 0.72rem;
+    background: url("../img/319487611967786247.png")no-repeat center;
+    background-size:contain;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top:0.9rem;
+    animation: color 2s 1s infinite forwards;
+
+}
+@keyframes color {
+    0%{
+        transform: translateX(-0.50rem);
+    }
+    40%{
+        transform: translateX(0rem);
+    }
+    50%{
+        transform: translateX(0.5rem);
+    }
+    100%{
+        transform: translateX(0rem);
+    }
+}
+.yun{
+    width: 4.95rem;
+    height: 0.56rem;
+    background: url("../img/clound_06.png")no-repeat center;
+    background-size:contain;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top:0.9rem;
+}
+.point{
+    width: 0.8rem;
+    height: 0.5rem;
+    /*background: #ffac32;*/
+    position: absolute;
+    top:2.75rem;
+    left: 2.2rem;
+    font-size: 0.36rem;
+
+
+}
+.btn{
+    width: 2.63rem;
+    height: 0.6rem;
+    /*background: #ffac32;*/
+    background: url("../img/btn.png") no-repeat center;
+    background-size:contain;
+    position: absolute;
+    top: 3.5rem;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
